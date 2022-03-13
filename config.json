@@ -1,0 +1,27 @@
+{
+    "credentials": {
+        "tenantName": "xSmartOffice.onmicrosoft.com",
+        "clientID": "bbe0b92f-4a76-40e7-bf6d-b1fd0b3ec654"
+    },
+    "policies": {
+        "policyName": "B2C_1_signupsignin1"
+    },
+    "metadata": {
+        "b2cDomain": "xSmartOffice.b2clogin.com",
+        "authority": "login.microsoftonline.com",
+        "discovery": ".well-known/openid-configuration",
+        "version": "v2.0"
+    },
+    "settings": {
+        "isB2C": true,
+        "validateIssuer": false,
+        "passReqToCallback": false,
+        "loggingLevel": "info"
+    },
+    "protectedRoutes": {
+        "hello": {
+            "endpoint": "/hello",
+            "scopes": ["demo.read"]
+        }
+    }
+}
